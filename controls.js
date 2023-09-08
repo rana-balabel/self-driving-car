@@ -4,18 +4,17 @@ class Controls{
         this.left=false;
         this.right=false;
         this.reverse=false;
+
         switch(type){
-            case "KEYS": 
+            case "KEYS":
                 this.#addKeyboardListeners();
                 break;
-            case "DUMMY": 
+            case "DUMMY":
                 this.forward=true;
                 break;
-
-            
         }
-        
     }
+
     #addKeyboardListeners(){
         document.onkeydown=(event)=>{
             switch(event.key){
@@ -48,7 +47,6 @@ class Controls{
                     this.reverse=false;
                     break;
             }
-
         }
     }
 }
