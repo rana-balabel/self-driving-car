@@ -37,7 +37,7 @@ The neural network architecture includes:
 ## How to Use
 1. **Starting the Simulation:**
    - The simulation begins automatically when you open the index.html file. The car will attempt to navigate the road using its neural network.
-2. **Customizing the Environment: **
+2. **Customizing the Environment:**
    - Modify the road, car, and sensor parameters in the JavaScript files to change the road layout, car behavior, or sensor accuracy.
 3. **Optimizing with Genetic Algorithms:**
    - The genetic algorithm will improve the car’s performance over time by adjusting neural network parameters through mutation and selection.
